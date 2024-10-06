@@ -7,7 +7,7 @@ pipeline {
     stages {        
         stage('Clone') {
             steps {
-                git url: 'https://github.com/Jayesh5124/config-server.git', branch: 'config-server'
+                git url: 'https://github.com/Jayesh5124/config-server.git', branch: 'main'
             }
         }
         stage('Build') {
